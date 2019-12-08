@@ -15,7 +15,7 @@ namespace WebApplication
         {
             // Web API configuration and services
 
-            var corsAttr = new EnableCorsAttribute("https://kudchikarsk.com", "*", "*");
+            var corsAttr = new EnableCorsAttribute("https://codewithshadman.com", "*", "*");
             config.EnableCors(corsAttr);
 
             // Configure Web API to use only bearer token authentication.
